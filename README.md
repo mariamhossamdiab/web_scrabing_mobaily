@@ -1,4 +1,4 @@
-"# web_scrabing_mobaily" 
+# web_scrabing_mobaily
 The project you created is a web scraping tool using Python, leveraging Selenium and BeautifulSoup libraries. 
 
 Project Overview
