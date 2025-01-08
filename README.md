@@ -1,7 +1,7 @@
 # web_scrabing_mobaily
 The project you created is a web scraping tool using Python, leveraging Selenium and BeautifulSoup libraries. 
 
-Project Overview
+# Project Overview
 
 Input Data (pn.xlsx):
 The input Excel file (pn.xlsx) contains a list of product names or brand names under the column PN (e.g., "honor," "oppo").
@@ -22,7 +22,7 @@ Brand (the product brand, e.g., "Honor").
 
 URL (the direct link to the product on the website).
 
-Technologies Used:
+# Technologies Used:
 
 Selenium: Used for automating browser actions to navigate the website, input search keywords, and load product pages dynamically.
 
@@ -30,7 +30,7 @@ BeautifulSoup: Used for parsing the HTML content of the web pages loaded by Sele
 
 Pandas: Likely used for organizing the scraped data into a DataFrame and exporting it to an Excel file.
 
-Workflow:
+# Workflow:
 
 Input Handling: The script reads the PN column from the input Excel file (pn.xlsx).
 
@@ -42,15 +42,15 @@ Data Extraction:
 
 BeautifulSoup processes the HTML content of the results page, extracting relevant product details (e.g., price, title, URL).
 
-Output Generation:
+# Output Generation:
 
 The extracted data is stored in a structured format using Pandas and exported to an Excel file (output_data.xlsx).
 
-Purpose:
+# Purpose:
 
 This project is designed for e-commerce data collection, allowing users to scrape product details and prices for multiple brands or keywords from a specific website. This can be useful for price comparison, market analysis, or inventory management.
 
-Strengths of Your Project:
+# Strengths of My Project:
 
 Automated Data Collection: Eliminates the need for manual data gathering from the website.
 
