@@ -50,31 +50,6 @@ The extracted data is stored in a structured format using Pandas and exported to
 
 This project is designed for e-commerce data collection, allowing users to scrape product details and prices for multiple brands or keywords from a specific website. This can be useful for price comparison, market analysis, or inventory management.
 
-# Strengths of My Project:
-
-Automated Data Collection: Eliminates the need for manual data gathering from the website.
-
-Scalability: Can handle multiple brands or keywords by simply modifying the input Excel file.
-
-Well-Organized Output: The data is neatly formatted and saved into an Excel file, making it easy to analyze.
-
-Potential Enhancements:
-
-Error Handling:
-
-Implement error handling to manage cases where the website blocks scraping or where a product is not found for a given keyword.
-
-Dynamic Waits:
-
-Use dynamic waits in Selenium to ensure the page is fully loaded before extracting data.
-
-Multi-Threading:
-
-Introduce multi-threading to speed up the scraping process for large datasets.
-
-Headless Browsing:
-
-Use headless mode in Selenium to make the scraping faster and less resource-intensive.
 ![Mobaily_website](https://github.com/user-attachments/assets/89cb7b18-4636-44a9-81f6-d9cb82580e5b)
 
 ![image](https://github.com/user-attachments/assets/95f3dfb7-74b3-4ac8-8bf4-76245af4afc8)
